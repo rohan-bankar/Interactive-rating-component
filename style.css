@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Overpass:wght@400;700&display=swap');
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Overpass';
+    background-color: hsl(216, 12%, 8%);
+}
+
+.star{
+    border-radius:50%;
+    padding: 20px;
+    background-color:  hsl(216, 12%, 8%);
+}
+
+.card-1{
+    margin: 100px 510px;
+    padding: 30px;
+    background-color:  hsl(213, 19%, 18%);
+    color: hsl(0, 0%, 100%);
+    border-radius: 20px;
+}
+
+.card-1-paragraph{
+    color: hsl(217, 12%, 63%);
+    line-height: 25px;
+    font-size: 16px;
+}
+
+.buttons{
+    display:flex;
+    justify-content:space-between;
+}
+
+.btn1,
+.btn2,
+.btn3,
+.btn4,
+.btn5{
+    border-radius:50%;
+    height: 10px;
+    padding: 20px;
+    background-color:  hsl(216, 12%, 8%);
+    color: hsl(217, 12%, 63%);
+}
+
+.btn1:hover,
+.btn2:hover,
+.btn3:hover,
+.btn4:hover,
+.btn5:hover{
+    background-color:hsl(25, 97%, 53%);
+    color: hsl(0, 0%, 100%);
+    cursor: pointer;
+}
+
+.Submit{
+    width: 100%;
+    padding: 15px;
+    border-radius: 30px;
+    border-style: none;
+    margin-top: 20px;
+    text-transform: uppercase;
+    background-color: hsl(25, 97%, 53%);
+    color:hsl(0, 0%, 100%) ;
+}
+
+.Submit:hover{
+    background-color: hsl(0, 0%, 100%);
+    color:hsl(25, 97%, 53%);
+    cursor: pointer;
+}
+
+.card-2{
+    margin: 100px 510px;
+    padding: 30px;
+    background-color:  hsl(213, 19%, 18%);
+    color: hsl(0, 0%, 100%);
+    border-radius: 20px;
+    text-align: center;
+}
+
+.rating{
+    background-color:  hsl(216, 12%, 8%);
+    padding: 10px;
+    margin: 20px 70px;
+    border-radius: 20px;
+    color: hsl(25, 97%, 53%);
+    font-size: 16px;
+    opacity: 60%;
+}
+
+.card-2-paragraph{
+    color: hsl(217, 12%, 63%);
+    line-height: 25px;
+    font-size: 16px;
+}
